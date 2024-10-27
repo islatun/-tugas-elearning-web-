@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header dan Navigasi */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        /* Konten */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Home */
+        #home {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Visi Misi */
+        #visi-misi {
+            background-color: #e9ecef;
+            padding: 20px;
+        }
+
+        /* Kontak */
+        #kontak {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Galeri */
+        #galeri {
+            background-color: #e9ecef;
+            padding: 20px;
+        }
+
+        /* Styling Galeri */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Kami</h1>
+        <p>Website Resmi Kami</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="VisiMisi.html">Visi Misi</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <!-- Konten Home -->
+    <section id="home" class="content">
+        <h2>Selamat datang di Teknik Informatika UTB.</h2>
+        <br><img src="logo.jpg" width="250" height="250" alt="Logo">
+
+    </section>
+
+</body>
+</html>
